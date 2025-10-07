@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Capacitor Mobile</string>
-    <string name="title_activity_main">Capacitor Mobile</string>
+    <string name="app_name">Pathfinder</string>
+    <string name="title_activity_main">Pathfinder</string>
     <string name="package_name">com.example.capacitormobile</string>
     <string name="custom_url_scheme">com.example.capacitormobile</string>
 </resources>

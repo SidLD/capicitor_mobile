@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0c0c1a">
     <title>MAP PATH FINDER</title>
     <style>
         * {
@@ -42,6 +44,19 @@
         .logo {
             margin-bottom: 2rem;
             text-align: center;
+        }
+
+        .logo img {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 1rem;
+            border-radius: 50%;
+            box-shadow: 0 0 30px rgba(100, 149, 237, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .logo img:hover {
+            transform: scale(1.05);
         }
 
         .logo h1 {
@@ -504,6 +519,7 @@
     <!-- Home Screen -->
     <div id="home-screen">
         <div class="logo">
+            <img src="logo.jpeg" alt="Pathfinder Logo">
             <h1>Map Path Finder</h1>
             <p>Explore your campus in 3D</p>
         </div>
